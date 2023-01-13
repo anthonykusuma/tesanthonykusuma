@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from './page.module.css'
 
 export default function Home() {
@@ -10,6 +11,10 @@ export default function Home() {
                 </h1>
 
                 <p className="text-center medium text-3xl text-orange-400">Icip icip</p>
+
+                <Link href="16-kepribadian">
+                    16 Kepribadian
+                </Link>
 
                 <p className={styles.description}>
                     Get started by editing{' '}
